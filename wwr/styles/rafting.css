@@ -3,7 +3,6 @@
     --secondary-color: #62B6CB;
     --accent1-color: #CAE9FF;
     --accent2-color: #5FA8D3;
-
     --heading-font: Arial, sans-serif;
     --body-font: Arial, sans-serif;
 }
@@ -18,12 +17,6 @@ body {
     font-family: var(--body-font);
     color: #FFFFFF;
     background-color: #121212;
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
 }
 
 h1,
@@ -62,7 +55,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--primary-color);
 }
 
 .hero article {
@@ -73,6 +66,7 @@ article {
     background-color: rgba(255, 255, 255, 0.85);
     padding: 16px;
     color: #333;
+    border: 2px solid var(--accent2-color);
 }
 
 .hero article img {
